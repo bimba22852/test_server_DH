@@ -1,0 +1,3856 @@
+{
+  "mod_elements": [
+    {
+      "name": "Disclaimershown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disclaimershown",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/DisclaimershownProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HurtSystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurt_system",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HurtSystemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HurterKill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurter_kill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HurterKillProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hurter",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurter",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/HurterEntity.java",
+          "src/main/resources/assets/dont_hurted/items/hurter_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/models/item/hurter_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/HurterRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "HurterPriNachalnomPrizyvieSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurter_pri_nachalnom_prizyvie_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HurterPriNachalnomPrizyvieSushchnostiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DEIDENTIFY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deidentify",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/block/DEIDENTIFYBlock.java",
+          "src/main/resources/assets/dont_hurted/models/block/deidentify.json",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/deidentify.json",
+          "src/main/resources/assets/dont_hurted/models/item/deidentify.json",
+          "src/main/resources/assets/dont_hurted/blockstates/deidentify.json",
+          "src/main/resources/assets/dont_hurted/items/deidentify.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/level_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Memory1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/dimension/Memory1Dimension.java",
+          "src/main/resources/data/dont_hurted/dimension_type/memory_1.json",
+          "src/main/resources/data/dont_hurted/dimension/memory_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Memory",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/memory.json"
+        ]
+      }
+    },
+    {
+      "name": "Memory2",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/dimension_type/memory_2.json",
+          "src/main/resources/data/dont_hurted/dimension/memory_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Hurthurthurt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurthurthurt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/hurthurthurt.json"
+        ]
+      }
+    },
+    {
+      "name": "ScreamerPriStolknovieniiIghrokaSSushchnostiu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screamer_pri_stolknovienii_ighroka_s_sushchnostiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ScreamerPriStolknovieniiIghrokaSSushchnostiuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "al",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ALProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pallete",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pallete",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/PalleteProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/PLProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Water11",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/loot_table/blocks/water_11.json",
+          "src/main/resources/assets/dont_hurted/models/block/water_11.json",
+          "src/main/resources/assets/dont_hurted/blockstates/water_11.json",
+          "src/main/java/com/odessy/donthurted/block/Water11Block.java",
+          "src/main/resources/assets/dont_hurted/models/item/water_11.json",
+          "src/main/resources/assets/dont_hurted/items/water_11.json"
+        ]
+      }
+    },
+    {
+      "name": "Reputation",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reputation",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/command/ReputationCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "DoYouCryiMs",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_you_cryi_ms",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/DoYouCryiMsRenderer.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/do_you_cryi_ms_biome_modifier.json",
+          "src/main/resources/assets/dont_hurted/models/item/do_you_cryi_ms_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/do_you_cryi_ms_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/DoYouCryiMsEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DoYouCryiMsPriStolknovieniiIghrokaSSushchnostiu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_you_cryi_ms_pri_stolknovienii_ighroka_s_sushchnostiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/DoYouCryiMsPriStolknovieniiIghrokaSSushchnostiuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Curved",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curved",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/CurvedEntity.java",
+          "src/main/resources/assets/dont_hurted/models/item/curved_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/curved_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/CurvedRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ISTHEREAVIRUS",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isthereavirus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/item/ISTHEREAVIRUSItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/isthereavirus.json",
+          "src/main/resources/assets/dont_hurted/items/isthereavirus.json",
+          "src/main/resources/assets/dont_hurted/models/item/isthereavirus_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Behind",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/inventory/BehindMenu.java",
+          "src/main/java/com/odessy/donthurted/client/gui/BehindScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Behindyou",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behindyou",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/gui/BehindyouScreen.java",
+          "src/main/java/com/odessy/donthurted/world/inventory/BehindyouMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Behindyoubro",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behindyoubro",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/gui/BehindyoubroScreen.java",
+          "src/main/java/com/odessy/donthurted/world/inventory/BehindyoubroMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Predmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predmet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/PredmetProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Virus",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/command/VirusCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "MemoryWhenSleep",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_when_sleep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/dimension/memory_when_sleep.json",
+          "src/main/resources/data/dont_hurted/dimension_type/memory_when_sleep.json"
+        ]
+      }
+    },
+    {
+      "name": "TeleportPriStolknovieniiSushchnostiSBlokom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_pri_stolknovienii_sushchnosti_s_blokom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/TeleportPriStolknovieniiSushchnostiSBlokomProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Teleport",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/block/TeleportBlock.java",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/teleport.json",
+          "src/main/resources/assets/dont_hurted/models/item/teleport.json",
+          "src/main/resources/assets/dont_hurted/items/teleport.json",
+          "src/main/resources/assets/dont_hurted/blockstates/teleport.json",
+          "src/main/resources/assets/dont_hurted/models/block/teleport.json"
+        ]
+      }
+    },
+    {
+      "name": "Teleport2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/loot_table/blocks/teleport_2.json",
+          "src/main/resources/assets/dont_hurted/models/block/teleport_2.json",
+          "src/main/resources/assets/dont_hurted/models/item/teleport_2.json",
+          "src/main/resources/assets/dont_hurted/items/teleport_2.json",
+          "src/main/java/com/odessy/donthurted/block/Teleport2Block.java",
+          "src/main/resources/assets/dont_hurted/blockstates/teleport_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Main",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/MainProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportPriStolknovieniiSushchnostiSBlokom2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_pri_stolknovienii_sushchnosti_s_blokom_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/TeleportPriStolknovieniiSushchnostiSBlokom2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MemoryVerdict",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_verdict",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/dimension/memory_verdict.json",
+          "src/main/resources/data/dont_hurted/dimension_type/memory_verdict.json"
+        ]
+      }
+    },
+    {
+      "name": "Tpshka",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpshka",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/TpshkaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Sayo",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sayo",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/SayoLeaveDecorator.java",
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/SayoFruitDecorator.java",
+          "src/main/resources/data/dont_hurted/worldgen/configured_feature/sayo_tree.json",
+          "src/main/resources/data/dont_hurted/worldgen/placed_feature/sayo_tree.json",
+          "src/main/resources/data/dont_hurted/worldgen/biome/sayo.json",
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/SayoTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Diary",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diary",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/dimension/DiaryDimension.java",
+          "src/main/resources/data/dont_hurted/dimension_type/diary.json",
+          "src/main/resources/data/dont_hurted/dimension/diary.json"
+        ]
+      }
+    },
+    {
+      "name": "Clone002",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_002",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/Clone002Renderer.java",
+          "src/main/resources/assets/dont_hurted/items/clone_002_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/models/item/clone_002_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/Clone002Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "DearDiary",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dear_diary",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/DearDiaryProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SLEEEEP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeeep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SLEEEEPProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nulllout",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulllout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/nulllout.json",
+          "src/main/resources/assets/dont_hurted/models/item/nulllout.json",
+          "src/main/resources/assets/dont_hurted/models/block/nulllout.json",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/nulllout.json",
+          "src/main/resources/assets/dont_hurted/blockstates/nulllout.json",
+          "src/main/java/com/odessy/donthurted/block/NullloutBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Speeker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SpeekerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Speekersafe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speekersafe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SpeekersafeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WAW",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waw",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/inventory/WAWMenu.java",
+          "src/main/java/com/odessy/donthurted/client/gui/WAWScreen.java",
+          "src/main/java/com/odessy/donthurted/network/WAWButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CurvedP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curved_p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/CurvedPProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HEREIAM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hereiam",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HEREIAMProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nullout",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullout",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/NulloutEntity.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/NulloutRenderer.java",
+          "src/main/resources/assets/dont_hurted/models/item/nullout_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/nullout_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "NulloutPriStolknovieniiIghrokaSSushchnostiu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullout_pri_stolknovienii_ighroka_s_sushchnostiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/NulloutPriStolknovieniiIghrokaSSushchnostiuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Button",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ButtonProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Connection",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connection",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/gui/ConnectionScreen.java",
+          "src/main/java/com/odessy/donthurted/world/inventory/ConnectionMenu.java",
+          "src/main/java/com/odessy/donthurted/network/ConnectionButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Wau",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wau",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/WauProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Checkdays",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkdays",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/CheckdaysProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Checkday",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkday",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/command/CheckdayCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AudioButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "audio_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/AudioButtonProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Audio1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "audio_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/audio_1.json",
+          "src/main/resources/assets/dont_hurted/items/audio_1.json",
+          "src/main/java/com/odessy/donthurted/item/Audio1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Theoperator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theoperator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/blockstates/theoperator.json",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/theoperator.json",
+          "src/main/resources/assets/dont_hurted/items/theoperator.json",
+          "src/main/resources/assets/dont_hurted/models/block/theoperator.json",
+          "src/main/java/com/odessy/donthurted/block/TheoperatorBlock.java",
+          "src/main/resources/assets/dont_hurted/models/item/theoperator.json"
+        ]
+      }
+    },
+    {
+      "name": "Operator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operator",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/item/OperatorItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/operator.json",
+          "src/main/resources/assets/dont_hurted/items/operator.json"
+        ]
+      }
+    },
+    {
+      "name": "Operatorblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operatorblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/operatorblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Operatorthen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operatorthen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/recipes/operatorthen.json",
+          "src/main/resources/data/dont_hurted/recipe/operatorthen.json"
+        ]
+      }
+    },
+    {
+      "name": "BossFight_end",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_fight_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/BossFight_endProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nullstrage",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullstrage",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/NullstrageRenderer.java",
+          "src/main/resources/assets/dont_hurted/items/nullstrage_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/models/item/nullstrage_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/NullstrageEntity.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/nullstrage_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Musicphase2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicphase_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Musicphase2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "VerdictPriRanieniiSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdict_pri_ranienii_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/VerdictPriRanieniiSushchnostiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Musicphase3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicphase_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Musicphase3Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Musicphase4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicphase_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Musicphase4Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TikiTikiTiki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiki_tiki_tiki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/TikiTikiTikiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nullphantom",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullphantom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/nullphantom_biome_modifier.json",
+          "src/main/java/com/odessy/donthurted/entity/NullphantomEntity.java",
+          "src/main/resources/assets/dont_hurted/models/item/nullphantom_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/nullphantom_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/NullphantomRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Nullstrage2",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullstrage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/nullstrage_2_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/Nullstrage2Entity.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/Nullstrage2Renderer.java",
+          "src/main/resources/assets/dont_hurted/models/item/nullstrage_2_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Booom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/BooomProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nullphantom2",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullphantom_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Nullphantom2Entity.java",
+          "src/main/resources/assets/dont_hurted/models/item/nullphantom_2_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/Nullphantom2Renderer.java",
+          "src/main/resources/assets/dont_hurted/items/nullphantom_2_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullstrage3",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullstrage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Nullstrage3Entity.java",
+          "src/main/resources/assets/dont_hurted/models/item/nullstrage_3_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/nullstrage_3_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/Nullstrage3Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BoomStrela",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_strela",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/BoomStrelaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Boss_end",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Boss_endProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Boss",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/timeline/boss_effects.json",
+          "src/main/resources/data/dont_hurted/dimension/boss.json",
+          "src/main/resources/data/dont_hurted/dimension_type/boss.json"
+        ]
+      }
+    },
+    {
+      "name": "Happytrad",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "happytrad",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/inventory/HappytradMenu.java",
+          "src/main/java/com/odessy/donthurted/client/gui/HappytradScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Interfac",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interfac",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/InterfacProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Happytrader",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "happytrader",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/HappytraderEntityProjectile.java",
+          "src/main/resources/assets/dont_hurted/items/happytrader_spawn_egg.json",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/happytrader_biome_modifier.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/HappytraderRenderer.java",
+          "src/main/resources/assets/dont_hurted/models/item/happytrader_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/HappytraderEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Hey",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hey",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HeyProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Killu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/KilluProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Petout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petout",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/PetoutProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Plushy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plushy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/plushy.json",
+          "src/main/resources/assets/dont_hurted/models/item/plushy.json",
+          "src/main/java/com/odessy/donthurted/item/PlushyItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/plushy_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "MemoryWhenSleep2",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_when_sleep_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/dimension/memory_when_sleep_2.json",
+          "src/main/resources/data/dont_hurted/dimension_type/memory_when_sleep_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferrolite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrolite",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/item/FerroliteItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/ferrolite.json",
+          "src/main/resources/assets/dont_hurted/items/ferrolite.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferrolitepickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrolitepickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/ferrolitepickaxe.json",
+          "src/main/resources/assets/dont_hurted/models/item/ferrolitepickaxe.json",
+          "src/main/java/com/odessy/donthurted/item/FerrolitepickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ferrollitesword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrollitesword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/ferrollitesword.json",
+          "src/main/resources/assets/dont_hurted/models/item/ferrollitesword.json",
+          "src/main/resources/assets/dont_hurted/models/item/ferrollitesword_gui.json",
+          "src/main/java/com/odessy/donthurted/item/FerrolliteswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Theserver",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theserver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/block/theserver.json",
+          "src/main/java/com/odessy/donthurted/block/TheserverBlock.java",
+          "src/main/resources/assets/dont_hurted/blockstates/theserver.json",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/theserver.json",
+          "src/main/resources/assets/dont_hurted/models/item/theserver.json",
+          "src/main/resources/assets/dont_hurted/items/theserver.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferroliteserver",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferroliteserver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/ferroliteserver.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawmatery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawmatery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/rawmatery.json",
+          "src/main/java/com/odessy/donthurted/item/RawmateryItem.java",
+          "src/main/resources/assets/dont_hurted/items/rawmatery.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawchurce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawchurce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/rawmatery.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/rawchurce.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemofverdictPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemofverdict_pri_shchielchkie_pkm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/TotemofverdictPriShchielchkiePKMProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Totemofverdict",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemofverdict",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/totemofverdict.json",
+          "src/main/java/com/odessy/donthurted/item/TotemofverdictItem.java",
+          "src/main/resources/assets/dont_hurted/items/totemofverdict.json"
+        ]
+      }
+    },
+    {
+      "name": "Totemi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/verdictestotemus.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/totemi.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferorignot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferorignot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/ferorignot.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/ferorignot.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferorpickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferorpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/recipes/ferorpickaxe.json",
+          "src/main/resources/data/dont_hurted/recipe/ferorpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ferorsword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferorsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/ferorsword.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/ferorsword.json"
+        ]
+      }
+    },
+    {
+      "name": "Donthurted",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donthurted",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Funnystuff",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funnystuff",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SomeonePriStolknovieniiIghrokaSSushchnostiu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "someone_pri_stolknovienii_ighroka_s_sushchnostiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SomeonePriStolknovieniiIghrokaSSushchnostiuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Someone",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "someone",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/SomeoneEntity.java",
+          "src/main/resources/assets/dont_hurted/models/item/someone_spawn_egg.json",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/someone_biome_modifier.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/SomeoneRenderer.java",
+          "src/main/resources/assets/dont_hurted/items/someone_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Thecat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thecat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/recipes/thecat.json",
+          "src/main/resources/data/dont_hurted/recipe/thecat.json"
+        ]
+      }
+    },
+    {
+      "name": "Showout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showout",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ShowoutProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Audio2PriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "audio_2_pri_shchielchkie_pkm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Audio2PriShchielchkiePKMProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Audio2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "audio_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/audio_2.json",
+          "src/main/resources/assets/dont_hurted/items/audio_2.json",
+          "src/main/java/com/odessy/donthurted/item/Audio2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Redvioletrose",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redvioletrose",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/worldgen/biome/redvioletrose.json",
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/RedvioletroseLeaveDecorator.java",
+          "src/main/resources/data/dont_hurted/worldgen/placed_feature/redvioletrose_tree.json",
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/RedvioletroseTrunkDecorator.java",
+          "src/main/java/com/odessy/donthurted/world/features/treedecorators/RedvioletroseFruitDecorator.java",
+          "src/main/resources/data/dont_hurted/worldgen/configured_feature/redvioletrose_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Ssarg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssarg",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/block/SsargBlock.java",
+          "src/main/resources/data/dont_hurted/loot_table/blocks/ssarg.json",
+          "src/main/resources/assets/dont_hurted/models/item/ssarg.json",
+          "src/main/resources/assets/dont_hurted/items/ssarg.json",
+          "src/main/resources/assets/dont_hurted/models/block/ssarg.json",
+          "src/main/resources/assets/dont_hurted/blockstates/ssarg.json"
+        ]
+      }
+    },
+    {
+      "name": "HiKoghdaIghrokPieriekhoditVIzmierieniie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_koghda_ighrok_pieriekhodit_v_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/HiKoghdaIghrokPieriekhoditVIzmierieniieProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hi",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/timeline/hi_effects.json",
+          "src/main/resources/data/dont_hurted/dimension_type/hi.json",
+          "src/main/java/com/odessy/donthurted/world/dimension/HiDimension.java",
+          "src/main/resources/data/dont_hurted/dimension/hi.json"
+        ]
+      }
+    },
+    {
+      "name": "Memory1KoghdaIghrokPieriekhoditVIzmierieniie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_1_koghda_ighrok_pieriekhodit_v_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Memory1KoghdaIghrokPieriekhoditVIzmierieniieProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Crushedferrollite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedferrollite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/items/crushedferrollite.json",
+          "src/main/java/com/odessy/donthurted/item/CrushedferrolliteItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/crushedferrollite.json"
+        ]
+      }
+    },
+    {
+      "name": "Crushedferrolite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedferrolite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crushed_ferrolite.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/crushedferrolite.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/rubin_gui.json",
+          "src/main/resources/assets/dont_hurted/models/item/rubin.json",
+          "src/main/resources/assets/dont_hurted/items/rubin.json",
+          "src/main/java/com/odessy/donthurted/item/RubinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubino",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubino",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/advancement/recipes/rubino.json",
+          "src/main/resources/data/dont_hurted/recipe/rubino.json"
+        ]
+      }
+    },
+    {
+      "name": "VerdictsteakPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdictsteak_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/VerdictsteakPriShchielchkiePKMPoBlokuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Verdictsteak",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdictsteak",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/item/VerdictsteakItem.java",
+          "src/main/resources/assets/dont_hurted/models/item/verdictsteak.json",
+          "src/main/resources/assets/dont_hurted/items/verdictsteak.json"
+        ]
+      }
+    },
+    {
+      "name": "Verdictsteake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdictsteake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/recipe/verdict_steak.json",
+          "src/main/resources/data/dont_hurted/advancement/recipes/verdictsteake.json"
+        ]
+      }
+    },
+    {
+      "name": "SeekerPriStolknovieniiIghrokaSSushchnostiu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeker_pri_stolknovienii_ighroka_s_sushchnostiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SeekerPriStolknovieniiIghrokaSSushchnostiuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Seeker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/seeker_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/SeekerRenderer.java",
+          "src/main/resources/assets/dont_hurted/items/seeker_spawn_egg.json",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/seeker_biome_modifier.json",
+          "src/main/java/com/odessy/donthurted/entity/SeekerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Book",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/gui/BookScreen.java",
+          "src/main/java/com/odessy/donthurted/world/inventory/BookMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "UnknownbookPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownbook_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/UnknownbookPriShchielchkiePKMPoBlokuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Unknownbook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/unknownbook.json",
+          "src/main/resources/assets/dont_hurted/items/unknownbook.json",
+          "src/main/java/com/odessy/donthurted/item/UnknownbookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Unknown",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/UnknownEntity.java",
+          "src/main/resources/assets/dont_hurted/models/item/unknown_spawn_egg.json",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/unknown_biome_modifier.json",
+          "src/main/resources/assets/dont_hurted/items/unknown_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/UnknownModel.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/UnknownRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Cod",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/cod_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/CodRenderer.java",
+          "src/main/java/com/odessy/donthurted/entity/CodEntity.java",
+          "src/main/resources/assets/dont_hurted/items/cod_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/CodModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Verdictbsd",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdictbsd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dont_hurted/models/item/verdictbsd_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/VerdictbsdModel.java",
+          "src/main/resources/assets/dont_hurted/items/verdictbsd_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/VerdictbsdEntity.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/VerdictbsdRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Verdictphase2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdictphase_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Verdictphase2EntityProjectile.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/Verdictphase2Renderer.java",
+          "src/main/java/com/odessy/donthurted/entity/model/Verdictphase2Model.java",
+          "src/main/java/com/odessy/donthurted/entity/Verdictphase2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "BossrunKoghdaIghrokPieriekhoditVIzmierieniie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossrun_koghda_ighrok_pieriekhodit_v_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/BossrunKoghdaIghrokPieriekhoditVIzmierieniieProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bossrun",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossrun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/timeline/bossrun_effects.json",
+          "src/main/resources/data/dont_hurted/dimension/bossrun.json",
+          "src/main/resources/data/dont_hurted/dimension_type/bossrun.json"
+        ]
+      }
+    },
+    {
+      "name": "BossKoghdaIghrokPieriekhoditVIzmierieniie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_koghda_ighrok_pieriekhodit_v_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/BossKoghdaIghrokPieriekhoditVIzmierieniieProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Defeater",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defeater",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/DefeaterRenderer.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/defeater_biome_modifier.json",
+          "src/main/resources/assets/dont_hurted/items/defeater_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/DefeaterEntity.java",
+          "src/main/resources/assets/dont_hurted/models/item/defeater_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/DefeaterModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Defeaterphase2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defeaterphase_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Defeaterphase2Entity.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/Defeaterphase2Renderer.java",
+          "src/main/resources/assets/dont_hurted/models/item/defeaterphase_2_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/defeaterphase_2_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/Defeaterphase2Model.java"
+        ]
+      }
+    },
+    {
+      "name": "CHAMP",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champ",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nobody",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nobody",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/NobodyRenderer.java",
+          "src/main/java/com/odessy/donthurted/entity/model/NobodyModel.java",
+          "src/main/java/com/odessy/donthurted/entity/NobodyEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Crash",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/inventory/CrashMenu.java",
+          "src/main/java/com/odessy/donthurted/client/gui/CrashScreen.java",
+          "src/main/java/com/odessy/donthurted/network/CrashButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Crash2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/network/Crash2ButtonMessage.java",
+          "src/main/java/com/odessy/donthurted/client/gui/Crash2Screen.java",
+          "src/main/java/com/odessy/donthurted/world/inventory/Crash2Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "But",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "but",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ButProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Crash3",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/world/inventory/Crash3Menu.java",
+          "src/main/java/com/odessy/donthurted/client/gui/Crash3Screen.java",
+          "src/main/java/com/odessy/donthurted/network/Crash3ButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "RUN",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/RUNProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cha",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/ChaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Coolplayer333",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coolplayer333",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Coolplayer333Entity.java",
+          "src/main/java/com/odessy/donthurted/entity/model/Coolplayer333Model.java",
+          "src/main/resources/assets/dont_hurted/items/coolplayer333_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/models/item/coolplayer333_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/Coolplayer333Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Coolplayer333PriNachalnomPrizyvieSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coolplayer_333_pri_nachalnom_prizyvie_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/Coolplayer333PriNachalnomPrizyvieSushchnostiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SASASSAAs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasassa_as",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/SASASSAAsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Mamba",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamba",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/MambaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Mambo",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mambo",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/command/MamboCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Clone042rev",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_042rev",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/model/Clone042revModel.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/clone_042rev_biome_modifier.json",
+          "src/main/java/com/odessy/donthurted/entity/Clone042revEntity.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/Clone042revRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "As",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "as",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/odessy/donthurted/procedures/AsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Clone042",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_042",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/clone_042_biome_modifier.json",
+          "src/main/resources/assets/dont_hurted/items/clone_042_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/Clone042Entity.java",
+          "src/main/java/com/odessy/donthurted/entity/model/Clone042Model.java",
+          "src/main/resources/assets/dont_hurted/models/item/clone_042_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/client/renderer/Clone042Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Clone0",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_0",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/client/renderer/Clone0Renderer.java",
+          "src/main/resources/assets/dont_hurted/models/item/clone_0_spawn_egg.json",
+          "src/main/resources/assets/dont_hurted/items/clone_0_spawn_egg.json",
+          "src/main/java/com/odessy/donthurted/entity/model/Clone0Model.java",
+          "src/main/java/com/odessy/donthurted/entity/Clone0Entity.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/clone_0_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Clone000rev",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_000rev",
+      "metadata": {
+        "files": [
+          "src/main/java/com/odessy/donthurted/entity/Clone000revEntity.java",
+          "src/main/java/com/odessy/donthurted/entity/model/Clone000revModel.java",
+          "src/main/java/com/odessy/donthurted/client/renderer/Clone000revRenderer.java",
+          "src/main/resources/data/dont_hurted/neoforge/biome_modifier/clone_000rev_biome_modifier.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "first_join_done",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "stability_rate",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "roulette_result",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "sleep_out",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "player",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "day",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "bossFightActive",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "musicTimer",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "hurt",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "mobs_count",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "pat",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "karma",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "its.hurt",
+      "files": [
+        "cardiographer-cardiac-arrest"
+      ],
+      "category": "ambient",
+      "subtitle": "its hurt..."
+    },
+    {
+      "name": "cooldown",
+      "files": [
+        "freddy-countdown"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lllevell1-failed",
+      "files": [
+        "cracking-bones-fracture"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "scream",
+      "files": [
+        "full-golden-freddy-scream"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "crushy",
+      "files": [
+        "0907_1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "run",
+      "files": [
+        "0907_2"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "ogg",
+      "files": [
+        "0907_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "frases_verdict",
+      "files": [
+        "v1-2026-09-16-18-52-we-used-to-build-worlds-togetherpauseremember"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "frases_verdict_end",
+      "files": [
+        "v1-2026-09-16-18-53-as-your-friend-i-should-save-you-pause-as-the"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "crushy1",
+      "files": [
+        "0921_1"
+      ],
+      "category": "master",
+      "subtitle": "qq"
+    },
+    {
+      "name": "ubav_dolboyeb_suka",
+      "files": [
+        "skrimery-657h"
+      ],
+      "category": "neutral",
+      "subtitle": "pidor"
+    },
+    {
+      "name": "rannaway",
+      "files": [
+        "0927"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "namer",
+      "files": [
+        "1012_1"
+      ],
+      "category": "neutral",
+      "subtitle": "3444325$$W$$$%)()()"
+    },
+    {
+      "name": "hurt",
+      "files": [
+        "1012_12"
+      ],
+      "category": "master",
+      "subtitle": "sd"
+    },
+    {
+      "name": "curved_chase",
+      "files": [
+        "curved_chase"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "exited",
+      "files": [
+        "doors-figure-growl"
+      ],
+      "category": "master",
+      "subtitle": "%"
+    },
+    {
+      "name": "soket",
+      "files": [
+        "robot-2026-10-14-14-27-sokket_bsd-bsd_0-started-in-john-fox_clone-about"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "message",
+      "files": [
+        "the-mimic-2026-10-15-11-23-this-video-message-was-sent-by-poly_054.-the-aud"
+      ],
+      "category": "neutral",
+      "subtitle": "audio????"
+    },
+    {
+      "name": "audio",
+      "files": [
+        "robot-2026-10-15-12-30-um-hello-clone_043long-pause.-i-am-going-defe"
+      ],
+      "category": "neutral",
+      "subtitle": "DoNt REmeMeMber ME?!"
+    },
+    {
+      "name": "listen",
+      "files": [
+        "mimic-m2-2026-10-15-11-39-hello-playerlong-pause.-sorry-but-listen-to"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "listen2",
+      "files": [
+        "mimic-m2-2026-10-15-11-41-verdict-or-to-be-more-precise-verdict-001-has"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "boss_phase1",
+      "files": [
+        "boss_1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "boss_phase2",
+      "files": [
+        "boss_2"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "booss_phase3",
+      "files": [
+        "boss_3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "boss_phase4",
+      "files": [
+        "boss_4"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "boss_rage",
+      "files": [
+        "boss_rage"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "white",
+      "files": [
+        "white_noise"
+      ],
+      "category": "neutral",
+      "subtitle": "DONT HURT ME"
+    },
+    {
+      "name": "pat1",
+      "files": [
+        "meowrgh"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pat2",
+      "files": [
+        "meow-1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pat3",
+      "files": [
+        "the-end-meow-by-nekocat-just-3-second-1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "final_message",
+      "files": [
+        "robot-2026-10-17-20-36-soket_bsd-soket-fox_clone_43-is-closing-about-2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "black",
+      "files": [
+        "2fb4ddef47d606d"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "audio2",
+      "files": [
+        "sapi4-speech_2-slowed-reverb-musicmake"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pojav",
+      "files": [
+        "new_eyes"
+      ],
+      "category": "neutral",
+      "subtitle": "Πού να `σαι τώρα"
+    },
+    {
+      "name": "jar",
+      "files": [
+        "sapi4-speech_4_1"
+      ],
+      "category": "neutral",
+      "subtitle": "JAR EXECUTE"
+    },
+    {
+      "name": "seeker_stak",
+      "files": [
+        "glitch10"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "glitch1",
+      "files": [
+        "glich1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rush",
+      "files": [
+        "1026"
+      ],
+      "category": "neutral",
+      "subtitle": "RuN As You C-C-CAn(*)"
+    },
+    {
+      "name": "rage1",
+      "files": [
+        "rush_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rage2",
+      "files": [
+        "rush_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rageent",
+      "files": [
+        "rush_entire"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "finalrage",
+      "files": [
+        "final"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rage3",
+      "files": [
+        "rush_rage"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "spider",
+      "files": [
+        "spider_walk"
+      ],
+      "category": "neutral",
+      "subtitle": "Hell0."
+    },
+    {
+      "name": "mambo",
+      "files": [
+        "mamboman-bo-shi-ge-ju-matikanetannhauser"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:dont_hurted:audio_2_repair_items": [
+      "~Audio2@CUSTOM:DEIDENTIFY"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Hi@CUSTOM:Ssarg",
+      "~Diary@Blocks.COAL_BLOCK",
+      "~Diary@CUSTOM:Nulllout",
+      "~Diary@Blocks.SMOOTH_STONE",
+      "~Memory1@CUSTOM:DEIDENTIFY"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~Clone002@CUSTOM:Clone002"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~Rubin@CUSTOM:Rubin",
+      "~Audio1@CUSTOM:Audio1"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Ferrolitepickaxe@CUSTOM:Ferrolitepickaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Totemofverdict@CUSTOM:Totemofverdict",
+      "~Ferrollitesword@CUSTOM:Ferrollitesword"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~Verdictsteak@CUSTOM:Verdictsteak",
+      "~Audio2@CUSTOM:Audio2"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.its.hurt": "its hurt...",
+      "entity.dont_hurted.hurter": "Hurter",
+      "item.dont_hurted.hurter_spawn_egg": "Hurter Spawn Egg",
+      "subtitles.cooldown": "good luck",
+      "item.dont_hurted.deidentify": "DEIDENTIFY",
+      "subtitles.lllevell1-failed": "",
+      "advancements.level_1.descr": "This block doesn\u0027t belong to version 1.21. It is a physical manifestation of a cold, forgotten corpse. You just placed a piece of your own dead flesh into the world\u0027s grid. ",
+      "advancements.level_1.title": "Bone.level.1",
+      "advancements.memory.descr": "Is that it?...",
+      "advancements.memory.title": "Memory",
+      "subtitles.scream": "",
+      "subtitles.crushy": "",
+      "subtitles.run": "",
+      "advancements.hurthurthurt.title": "Hurt.hurt-1",
+      "advancements.hurthurthurt.descr": "its hurt",
+      "item.dont_hurted.water_11": "Water 1 1",
+      "subtitles.ogg": "",
+      "subtitles.frases_verdict": "",
+      "subtitles.frases_verdict_end": "",
+      "subtitles.crushy1": "qq",
+      "entity.dont_hurted.do_you_cryi_ms": "Do You Cryi Ms",
+      "item.dont_hurted.do_you_cryi_ms_spawn_egg": "Do You Cryi Ms Spawn Egg",
+      "subtitles.ubav_dolboyeb_suka": "$#%",
+      "item.dont_hurted.curved_spawn_egg": "A-REBU-S_s Spawn Egg",
+      "entity.dont_hurted.curved": "A-REBU-S_s",
+      "item.dont_hurted.isthereavirus": "IS_THERE_A_VIRUS??#?$???#?$?#?$?#%?$%?\"!01010?#?#???#?#$??FGD?S#?%??G?SGER?G?RE?TE?",
+      "subtitles.rannaway": "",
+      "gui.dont_hurted.behind.label_behind_you": "BEHIND YOU.",
+      "gui.dont_hurted.behindyou.label_behind_you": "BEHIND YOU.",
+      "gui.dont_hurted.behindyoubro.label_behind_you": "BEHIND YOU.",
+      "item.dont_hurted.teleport": "Teleport",
+      "item.dont_hurted.teleport_2": "Teleport",
+      "subtitles.namer": "3444325$$W$$$%)()()",
+      "biome.dont_hurted.sayo": "Sayo",
+      "subtitles.hurt": "sd",
+      "item.dont_hurted.clone_002_spawn_egg": "Clone 0 0 2 Spawn Egg",
+      "entity.dont_hurted.clone_002": "Clone 0 0 2",
+      "item.dont_hurted.nulllout": "Nulllout",
+      "subtitles.chase": "chase.verdict",
+      "gui.dont_hurted.waw.button_i_dont_have_an_epilepsy": "I dont have an epilepsy.",
+      "gui.dont_hurted.waw.label_if_you_dont_press_on_use_the_co": "press ESC if button dont work",
+      "gui.dont_hurted.waw.label_pressing_on_this_command": "pressing on this button",
+      "gui.dont_hurted.waw.label_for_better_experience": "for better experience",
+      "gui.dont_hurted.waw.label_you_ayoou_confirmed_with_them": "you agree confirmed with them",
+      "gui.dont_hurted.waw.label_that_you_dont_have_an_epilepsy": "that you dont have an epilepsy.",
+      "subtitles.curved_chase": "",
+      "entity.dont_hurted.nullout": "Nullout",
+      "item.dont_hurted.nullout_spawn_egg": "Nullout Spawn Egg",
+      "subtitles.exited": "%",
+      "gui.dont_hurted.connection.label_fosd": "*(\u0026F*OSD***",
+      "gui.dont_hurted.connection.label_failed_to_connesct_the_server": "Failed to connesct the server",
+      "gui.dont_hurted.connection.button_back_to_server_list": "Back to Server List",
+      "subtitles.soket": "",
+      "subtitles.message": "audio????",
+      "subtitles.audio": "DoNt REmeMeMber ME?!",
+      "item.dont_hurted.audio_1": "Audiomessage:one",
+      "subtitles.listen": "",
+      "subtitles.listen2": "",
+      "item.dont_hurted.theoperator": "The_operator",
+      "item.dont_hurted.operator": "Operator",
+      "subtitles.boss_phase1": "",
+      "subtitles.boss_phase2": "",
+      "subtitles.booss_phase3": "",
+      "subtitles.boss_phase4": "",
+      "item.dont_hurted.nullstrage_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage": "Nullstrage",
+      "subtitles.boss_rage": "",
+      "item.dont_hurted.nullphantom_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullphantom": "Nullstrage",
+      "entity.dont_hurted.nullphantom_2": "Nullstrage",
+      "item.dont_hurted.nullphantom_2_spawn_egg": "Nullstrage Spawn Egg",
+      "item.dont_hurted.nullstrage_3_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage_3": "Nullstrage",
+      "gui.dont_hurted.happytrad.label_i_give_u_a_cul_items_just_ask": " I give u a cul items. ",
+      "gui.dont_hurted.happytrad.label_just_ask": "Just ask!!!!!",
+      "gui.dont_hurted.happytrad.label_heloo": "HeLoo!",
+      "gui.dont_hurted.happytrad.label_i_am_a_hapi_trader_i_give_u_a_c": "i am a hapi trader.",
+      "gui.dont_hurted.happytrad.label_press_esc_for_exit": "press ESC for exit",
+      "entity.dont_hurted.happytrader": "Happytrader",
+      "item.dont_hurted.happytrader_spawn_egg": "Happytrader Spawn Egg",
+      "subtitles.white": "DONT HURT ME",
+      "subtitles.pat1": "",
+      "subtitles.pat2": "",
+      "subtitles.pat3": "",
+      "item.dont_hurted.plushy": "The Cat",
+      "item.dont_hurted.ferrolite": "Ferrolite",
+      "item.dont_hurted.ferrolitepickaxe": "Ferrolite pickaxe",
+      "item.dont_hurted.ferrollitesword": "Ferrollite sword",
+      "item.dont_hurted.theserver": "Theserver",
+      "item.dont_hurted.totemofverdict": "Totem of the Verdict",
+      "subtitles.final_message": "",
+      "subtitles.black": "",
+      "item_group.dont_hurted.donthurted": "Dont hurted mod",
+      "item_group.dont_hurted.funnystuff": "Funny stuff",
+      "item.dont_hurted.someone_spawn_egg": "Someone Spawn Egg",
+      "entity.dont_hurted.someone": "Someone",
+      "subtitles.audio2": "",
+      "biome.dont_hurted.redvioletrose": "Sayo",
+      "item.dont_hurted.ssarg": "ssarG",
+      "subtitles.pojav": "Πού να `σαι τώρα",
+      "subtitles.jar": "JAR EXECUTE",
+      "item.dont_hurted.crushedferrollite": "F3ROL1T3",
+      "item.dont_hurted.rubin": "Jailed.png",
+      "item.dont_hurted.verdictsteak": "Verdict\u0027s steak",
+      "subtitles.seeker_stak": "",
+      "subtitles.glitch1": "",
+      "entity.dont_hurted.seeker": "Seeker_stalk",
+      "item.dont_hurted.seeker_spawn_egg": "Seeker_stalk Spawn Egg",
+      "subtitles.rush": "RuN As You C-C-CAn(*)",
+      "gui.dont_hurted.book.label_you_can_chanche_something": "You can chanche something",
+      "gui.dont_hurted.book.label_hello": "hello",
+      "gui.dont_hurted.book.label_h_e_l_p": "H E L P",
+      "gui.dont_hurted.book.label_help": "help",
+      "gui.dont_hurted.book.label_empty": "Check the message.",
+      "item.dont_hurted.unknownbook": "Unknownbook",
+      "entity.dont_hurted.unknown": "unknown",
+      "item.dont_hurted.unknown_spawn_egg": "unknown Spawn Egg",
+      "entity.dont_hurted.cod": "Cod",
+      "item.dont_hurted.cod_spawn_egg": "Cod Spawn Egg",
+      "entity.dont_hurted.verdictbsd": "Verdict_bsd",
+      "item.dont_hurted.verdictbsd_spawn_egg": "Verdict_bsd Spawn Egg",
+      "subtitles.rage1": "",
+      "subtitles.rage2": "",
+      "subtitles.rageent": "",
+      "subtitles.finalrage": "",
+      "subtitles.rage3": "",
+      "subtitles.spider": "Hell0.",
+      "item.dont_hurted.defeaterphase_2_spawn_egg": "Defeaterphase 2 Spawn Egg",
+      "entity.dont_hurted.defeaterphase_2": "Defeaterphase 2",
+      "entity.dont_hurted.verdictphase_2": "Verdict",
+      "item.dont_hurted.verdictphase_2_spawn_egg": "Verdict Spawn Egg",
+      "item.dont_hurted.nullstrage_2_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage_2": "Nullstrage",
+      "item_group.dont_hurted.champ": "CHAMP.JAR",
+      "entity.dont_hurted.nobody": "Nobody",
+      "item.dont_hurted.nobody_spawn_egg": "Nobody Spawn Egg",
+      "gui.dont_hurted.crash.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash.label_detected_for_username_runaway": "detected for username \"runaway?",
+      "gui.dont_hurted.crash.button_close_session": "close session",
+      "gui.dont_hurted.crash_2.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash_2.label_detected_for_username_runaway": "detected for username \"Verdict\"",
+      "gui.dont_hurted.crash_2.button_close_session": "close session",
+      "gui.dont_hurted.crash_3.button_close_session": "close session",
+      "gui.dont_hurted.crash_3.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash_3.label_detected_for_username_runaway": "detected for username \"           \"",
+      "entity.dont_hurted.coolplayer333": "Coolplayer333",
+      "item.dont_hurted.coolplayer333_spawn_egg": "Coolplayer333 Spawn Egg",
+      "item.dont_hurted.audio_2": "Audiomessage",
+      "item.dont_hurted.rawmatery": "Rawmatery",
+      "entity.dont_hurted.defeater": "Defeater",
+      "item.dont_hurted.defeater_spawn_egg": "Defeater Spawn Egg",
+      "subtitles.mambo": "",
+      "item.dont_hurted.clone_042rev_spawn_egg": "Clone_042rev Spawn Egg",
+      "entity.dont_hurted.clone_042rev": "Clone_042rev",
+      "entity.dont_hurted.clone_042": "Clone_042",
+      "item.dont_hurted.clone_042_spawn_egg": "Clone_042 Spawn Egg",
+      "item.dont_hurted.clone_0_spawn_egg": "Clone_0## Spawn Egg",
+      "entity.dont_hurted.clone_0": "Clone_0##",
+      "entity.dont_hurted.clone_000rev": "Clone_042rev",
+      "item.dont_hurted.clone_000rev_spawn_egg": "Clone_042rev Spawn Egg"
+    },
+    "ru_ru": {
+      "subtitles.its.hurt": "its hurt...",
+      "entity.dont_hurted.hurter": "Hurter",
+      "item.dont_hurted.hurter_spawn_egg": "Hurter Spawn Egg",
+      "subtitles.cooldown": "",
+      "item.dont_hurted.deidentify": "DEIDENTIFY",
+      "subtitles.lllevell1-failed": "",
+      "advancements.level_1.descr": "This block doesn\u0027t belong to version 1.21. It is a physical manifestation of a cold, forgotten corpse. You just placed a piece of your own dead flesh into the world\u0027s grid. ",
+      "advancements.level_1.title": "Bone.level.1",
+      "advancements.memory.descr": "Это оно?...",
+      "advancements.memory.title": "Воспоминания",
+      "subtitles.scream": "",
+      "subtitles.crushy": "",
+      "subtitles.run": "",
+      "advancements.hurthurthurt.title": "Hurt.hurt-1",
+      "advancements.hurthurthurt.descr": "its hurt",
+      "item.dont_hurted.water_11": "Water 1 1",
+      "subtitles.ogg": "",
+      "subtitles.frases_verdict": "",
+      "subtitles.frases_verdict_end": "",
+      "subtitles.crushy1": "qq",
+      "entity.dont_hurted.do_you_cryi_ms": "Do You Cryi Ms",
+      "item.dont_hurted.do_you_cryi_ms_spawn_egg": "Do You Cryi Ms Spawn Egg",
+      "subtitles.ubav_dolboyeb_suka": "pidor",
+      "item.dont_hurted.curved_spawn_egg": "A-REBU-S_s Spawn Egg",
+      "entity.dont_hurted.curved": "A-REBU-S_s",
+      "item.dont_hurted.isthereavirus": "IS_THERE_A_VIRUS??#?$???#?$?#?$?#%?$%?\"!01010?#?#???#?#$??FGD?S#?%??G?SGER?G?RE?TE?",
+      "subtitles.rannaway": "",
+      "gui.dont_hurted.behind.label_behind_you": "BEHIND YOU.",
+      "gui.dont_hurted.behindyou.label_behind_you": "BEHIND YOU.",
+      "gui.dont_hurted.behindyoubro.label_behind_you": "BEHIND YOU.",
+      "item.dont_hurted.teleport": "Teleport",
+      "item.dont_hurted.teleport_2": "Teleport",
+      "subtitles.namer": "3444325$$W$$$%)()()",
+      "biome.dont_hurted.sayo": "Sayo",
+      "subtitles.hurt": "sd",
+      "item.dont_hurted.clone_002_spawn_egg": "Clone 0 0 2 Spawn Egg",
+      "entity.dont_hurted.clone_002": "Clone 0 0 2",
+      "item.dont_hurted.nulllout": "Nulllout",
+      "subtitles.chase": "chase.verdict",
+      "gui.dont_hurted.waw.button_i_dont_have_an_epilepsy": "у меня нет эпилепсии",
+      "gui.dont_hurted.waw.label_if_you_dont_press_on_use_the_co": "Наажмите ESC если кнопка не работает",
+      "gui.dont_hurted.waw.label_pressing_on_this_command": "Нажимая на кнопку",
+      "gui.dont_hurted.waw.label_for_better_experience": "for better experience",
+      "gui.dont_hurted.waw.label_you_ayoou_confirmed_with_them": "вы соглашаетесь с тем",
+      "gui.dont_hurted.waw.label_that_you_dont_have_an_epilepsy": "что у вас нет эпилепсии",
+      "subtitles.curved_chase": "",
+      "entity.dont_hurted.nullout": "Nullout",
+      "item.dont_hurted.nullout_spawn_egg": "Nullout Spawn Egg",
+      "subtitles.exited": "%",
+      "gui.dont_hurted.connection.label_fosd": "*(\u0026F*OSD***",
+      "gui.dont_hurted.connection.label_failed_to_connesct_the_server": "Не удалось подключиться к серверу",
+      "gui.dont_hurted.connection.button_back_to_server_list": "Вернуться к Списку серверов",
+      "subtitles.soket": "",
+      "subtitles.message": "audio????",
+      "subtitles.audio": "Не ПоМнИшь Меня?!",
+      "item.dont_hurted.audio_1": "Audiomessage:one",
+      "subtitles.listen": "",
+      "subtitles.listen2": "",
+      "item.dont_hurted.theoperator": "Уничтоженный Командный блок",
+      "item.dont_hurted.operator": "Оператор",
+      "subtitles.boss_phase1": "",
+      "subtitles.boss_phase2": "",
+      "subtitles.booss_phase3": "",
+      "subtitles.boss_phase4": "",
+      "item.dont_hurted.nullstrage_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage": "Nullstrage",
+      "subtitles.boss_rage": "",
+      "item.dont_hurted.nullphantom_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullphantom": "Nullstrage",
+      "entity.dont_hurted.nullphantom_2": "Nullstrage",
+      "item.dont_hurted.nullphantom_2_spawn_egg": "Nullstrage Spawn Egg",
+      "item.dont_hurted.nullstrage_3_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage_3": "Nullstrage",
+      "gui.dont_hurted.happytrad.label_i_give_u_a_cul_items_just_ask": " I give u a cul items. ",
+      "gui.dont_hurted.happytrad.label_just_ask": "Just ask!!!!!",
+      "gui.dont_hurted.happytrad.label_heloo": "HeLoo!",
+      "gui.dont_hurted.happytrad.label_i_am_a_hapi_trader_i_give_u_a_c": "i am a hapi trader.",
+      "gui.dont_hurted.happytrad.label_press_esc_for_exit": "press ESC for exit",
+      "entity.dont_hurted.happytrader": "Happytrader",
+      "item.dont_hurted.happytrader_spawn_egg": "Happytrader Spawn Egg",
+      "subtitles.white": "DONT HURT ME",
+      "subtitles.pat1": "",
+      "subtitles.pat2": "",
+      "subtitles.pat3": "",
+      "item.dont_hurted.plushy": "The Cat",
+      "item.dont_hurted.ferrolite": "Фероллита",
+      "item.dont_hurted.ferrolitepickaxe": "Фероллитовая кирка",
+      "item.dont_hurted.ferrollitesword": "Феролитовый меч",
+      "item.dont_hurted.theserver": "Theserver",
+      "item.dont_hurted.totemofverdict": "Знамя Вердикта",
+      "subtitles.final_message": "",
+      "subtitles.black": "",
+      "item_group.dont_hurted.donthurted": "Dont hurted мод",
+      "item_group.dont_hurted.funnystuff": "Смешные вещи",
+      "item.dont_hurted.someone_spawn_egg": "Someone Spawn Egg",
+      "entity.dont_hurted.someone": "Someone",
+      "subtitles.audio2": "",
+      "biome.dont_hurted.redvioletrose": "Sayo",
+      "item.dont_hurted.ssarg": "ssarG",
+      "subtitles.pojav": "Πού να `σαι τώρα",
+      "subtitles.jar": "JAR EXECUTE",
+      "item.dont_hurted.crushedferrollite": "Ф3РОЛЛЛ1Т",
+      "item.dont_hurted.rubin": "Jailed.png",
+      "item.dont_hurted.verdictsteak": "Стейк Вердикта",
+      "subtitles.seeker_stak": "",
+      "subtitles.glitch1": "",
+      "entity.dont_hurted.seeker": "Seeker_stalk",
+      "item.dont_hurted.seeker_spawn_egg": "Seeker_stalk Spawn Egg",
+      "subtitles.rush": "RuN As You C-C-CAn(*)",
+      "gui.dont_hurted.book.label_you_can_chanche_something": "You can chanche something",
+      "gui.dont_hurted.book.label_hello": "hello",
+      "gui.dont_hurted.book.label_h_e_l_p": "H E L P",
+      "gui.dont_hurted.book.label_help": "help",
+      "gui.dont_hurted.book.label_empty": "(*()#$$#%#$$%",
+      "item.dont_hurted.unknownbook": "Unknownbook",
+      "entity.dont_hurted.unknown": "unknown",
+      "item.dont_hurted.unknown_spawn_egg": "unknown Spawn Egg",
+      "entity.dont_hurted.cod": "Cod",
+      "item.dont_hurted.cod_spawn_egg": "Cod Spawn Egg",
+      "entity.dont_hurted.verdictbsd": "Verdict_bsd",
+      "item.dont_hurted.verdictbsd_spawn_egg": "Verdict_bsd Spawn Egg",
+      "subtitles.rage1": "",
+      "subtitles.rage2": "",
+      "subtitles.rageent": "",
+      "subtitles.finalrage": "",
+      "subtitles.rage3": "",
+      "subtitles.spider": "Hell0.",
+      "item.dont_hurted.defeaterphase_2_spawn_egg": "Defeaterphase 2 Spawn Egg",
+      "entity.dont_hurted.defeaterphase_2": "Defeaterphase 2",
+      "entity.dont_hurted.verdictphase_2": "Verdict",
+      "item.dont_hurted.verdictphase_2_spawn_egg": "Verdict Spawn Egg",
+      "item.dont_hurted.nullstrage_2_spawn_egg": "Nullstrage Spawn Egg",
+      "entity.dont_hurted.nullstrage_2": "Nullstrage",
+      "item_group.dont_hurted.champ": "Яйца Dont Hurted",
+      "entity.dont_hurted.nobody": "Nobody",
+      "item.dont_hurted.nobody_spawn_egg": "Nobody Spawn Egg",
+      "gui.dont_hurted.crash.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash.label_detected_for_username_runaway": "detected for username \"runaway?",
+      "gui.dont_hurted.crash.button_close_session": "close session",
+      "gui.dont_hurted.crash_2.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash_2.label_detected_for_username_runaway": "detected for username \"runaway?",
+      "gui.dont_hurted.crash_2.button_close_session": "close session",
+      "gui.dont_hurted.crash_3.button_close_session": "close session",
+      "gui.dont_hurted.crash_3.label_failed_login_attempt_detected_fo": "Failed login attempt ",
+      "gui.dont_hurted.crash_3.label_detected_for_username_runaway": "detected for username \"Verdict\"",
+      "entity.dont_hurted.coolplayer333": "Coolplayer333",
+      "item.dont_hurted.coolplayer333_spawn_egg": "Coolplayer333 Spawn Egg",
+      "item.dont_hurted.audio_2": "Audiomessage",
+      "item.dont_hurted.rawmatery": "Rawmatery",
+      "entity.dont_hurted.defeater": "Defeater",
+      "item.dont_hurted.defeater_spawn_egg": "Defeater Spawn Egg",
+      "subtitles.mambo": "",
+      "item.dont_hurted.clone_042rev_spawn_egg": "Clone_042rev Spawn Egg",
+      "entity.dont_hurted.clone_042rev": "Clone_042rev",
+      "entity.dont_hurted.clone_042": "Clone_042",
+      "item.dont_hurted.clone_042_spawn_egg": "Clone_042 Spawn Egg",
+      "item.dont_hurted.clone_0_spawn_egg": "Clone_042 Spawn Egg",
+      "entity.dont_hurted.clone_0": "Clone_042",
+      "entity.dont_hurted.clone_000rev": "Clone_042rev",
+      "item.dont_hurted.clone_000rev_spawn_egg": "Clone_042rev Spawn Egg"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/odessy/donthurted/init/EntityAnimationFactory.java",
+      "src/main/java/com/odessy/donthurted/client/AnimatedEntityRenderers.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModBiomes.java",
+      "src/main/java/com/odessy/donthurted/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/com/odessy/donthurted/mixin/LevelStorageSourceMixin.java",
+      "src/main/java/com/odessy/donthurted/mixin/BiomeSourcePresetMixin.java",
+      "src/main/java/com/odessy/donthurted/client/DontHurtedModSkyboxRenderer.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModScreens.java",
+      "src/main/java/com/odessy/donthurted/network/MenuStateUpdateMessage.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModMenus.java",
+      "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModBlocks.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModItems.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModEntities.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModEntityRenderers.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/odessy/donthurted/DontHurtedMod.java",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModModels.java",
+      "src/main/resources/assets/dont_hurted/sounds.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/com/odessy/donthurted/init/DontHurtedModSounds.java",
+      "src/main/java/com/odessy/donthurted/network/DontHurtedModVariables.java",
+      "src/main/resources/dont_hurted.mixins.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dont_hurted",
+    "modName": "Dont Hurted",
+    "version": "0.5-prerelease",
+    "description": "Testificate world for SIMBIOZ corporate. Using as the experiment ",
+    "author": "Simbioz Corporation",
+    "websiteURL": "$^%^%^%$",
+    "license": "Simbioz inc.",
+    "serverSideOnly": false,
+    "modPicture": "aplizeraptmpsakhzhdimtzhshchshchprprzhdoltprldmizhprdprzhdolozhzhrdpdolprshchzhorpzhdprdzhdrpdzhrdrd_1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "hell0.",
+    "modElementsPackage": "com.odessy.donthurted"
+  },
+  "mcreatorVersion": 202600233518
+}
